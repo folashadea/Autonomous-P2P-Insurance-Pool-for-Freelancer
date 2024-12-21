@@ -1,0 +1,29 @@
+[project]
+name = 'Autonomous-P2P-Insurance-Pool-for-Freelancer'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.insurance-policy]
+path = 'contracts/insurance-policy.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.premium-pool]
+path = 'contracts/premium-pool.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.reputation]
+path = 'contracts/reputation.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
