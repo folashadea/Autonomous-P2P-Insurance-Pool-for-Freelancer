@@ -11,3 +11,5 @@ J
 tests/premium-pool.test.ts,9/e/9e9a5b0c948d3f2e82b2bff92802c03c151c8e8e
 I
 contracts/reputation.clar,1/b/1b2d9375e0af848678aba3edffa09d6ef4e1fb40
+H
+tests/reputation.test.ts,9/1/913d34502bb88f0309866e5600405f432c0274a0
